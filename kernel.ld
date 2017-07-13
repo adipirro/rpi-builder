@@ -31,13 +31,6 @@ SECTIONS {
 	}
 
 	/*
-	 * Start of free space for memory allocations
-	 */
-	.free : {
-		*(.free)
-	}
-	
-	/*
 	 * All other sections get discarded 
 	 */
 	/DISCARD/ : {
